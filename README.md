@@ -55,3 +55,6 @@ Lot 3 T-Test Versus Population Mean
   <img src="https://user-images.githubusercontent.com/99566803/171528751-1871dce5-889f-4efe-8191-d542b1c583a7.png" />
 </p>
 When looking at the potential differences between the mecha cars' suspension coils and the overall marker in more details, it seems that neither Lot 1 (p-value = 1), nor Lot 2 (p-value = 0.60) are significantly different from the population mean in the suspension coils PSI readings. Lot 3, however, shows promising result in that the p-value is 0.04, which is smaller than the p-value needed to reject the null hypothesis. In other words, Lot 3 is worth investigating, as it appears to be significantly different from the population mean (however, whether it's an inprovement or a downgrade remains to be investigated).
+
+## Study Design: MechaCar vs Competition
+
