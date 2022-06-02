@@ -1,0 +1,31 @@
+library(dplyr)
+
+###d1
+
+mecha_df <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F) 
+
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data = mecha_df)
+
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data = mecha_df))
+
+###d2
+
+coilover_df <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
+
+psi_summary <- coilover_df %>% summarize(Mean = mean(PSI),
+                                         Median = median(PSI),
+                                         Var = var(PSI),
+                                         SD = sd(PSI))
+
+perlot_summary <- coilover_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI),
+                                                                            Median = median(PSI),
+                                                                            Var = var(PSI),
+                                                                            SD = sd(PSI))
+                                                                            
+###d3
+
+t.test(coilover_df$PSI, mu = 1500)
+
+t.test(subset(coilover_df, Manufacturing_Lot == "Lot1")$PSI, mu = 1500)
+t.test(subset(coilover_df, Manufacturing_Lot == "Lot2")$PSI, mu = 1500)
+t.test(subset(coilover_df, Manufacturing_Lot == "Lot3")$PSI, mu = 1500)
