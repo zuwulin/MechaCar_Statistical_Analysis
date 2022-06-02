@@ -58,3 +58,6 @@ When looking at the potential differences between the mecha cars' suspension coi
 
 ## Study Design: MechaCar vs Competition
 
+One potential study that can be conducted to evaluate mecha cars' performance against the competitive market is to perform a MANOVA (multiple ANOVA) analyses to evaluate whether there is a signficant difference in price, demand (units sold), and satisfaction rate (review assessment) between the mecha cars brand and their competitors. Using the ANOVA method would allow to compare a number of factors at the same time, reducing drastically the time needed for analyses as opposed to t-testing techniques. It would also allow to indicate the direction of the relationship way easier (is mecha brand more successful than competitors, and if yes, on which specific factors?).
+The null hypothesis for such an investigation would, thus, be (H0): There is no difference in price, demand, or satisfaction rate between the mecha cars brand and their competitors.
+The alternative hypothesis would be: There is a difference in price, demand, or satisfaction rate between the mecha cars brand and their competitors, and this difference indicates a higher demand and satisfaction rate for mecha cars while simultaneously showing a power price point against the competitors.
