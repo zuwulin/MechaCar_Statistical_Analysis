@@ -37,6 +37,8 @@ Overall T-Test Versus Population Mean
 <p align="center">
   <img src="https://user-images.githubusercontent.com/99566803/171528575-8154abe9-87e8-4e61-965d-daf1591fbba9.png" />
 </p>
+As can be seen in the analysis above, with the provided t-statistic of -1,89 and p-value of 0.06, the overall suspension coils PSI is not significantly different from the population mean, as the p-value is higher (0,06) than the p-value that would allow one to reject the null hypothesis (0,05). That being said, nothing suggests that the mecha cars are any better in suspension coils PSI regulation than the other car brands.
+
 
 Lot 1 T-Test Versus Population Mean
 <p align="center">
@@ -52,3 +54,4 @@ Lot 3 T-Test Versus Population Mean
 <p align="center">
   <img src="https://user-images.githubusercontent.com/99566803/171528751-1871dce5-889f-4efe-8191-d542b1c583a7.png" />
 </p>
+When looking at the potential differences between the mecha cars' suspension coils and the overall marker in more details, it seems that neither Lot 1 (p-value = 1), nor Lot 2 (p-value = 0.60) are significantly different from the population mean in the suspension coils PSI readings. Lot 3, however, shows promising result in that the p-value is 0.04, which is smaller than the p-value needed to reject the null hypothesis. In other words, Lot 3 is worth investigating, as it appears to be significantly different from the population mean (however, whether it's an inprovement or a downgrade remains to be investigated).
