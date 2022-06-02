@@ -3,7 +3,9 @@ The following analyses were performed in the R statistical programming language 
 
 ## Linear Regression to predict optimal MPG
 
-![Screenshot_2](https://user-images.githubusercontent.com/99566803/171518870-f3e17f79-636c-440d-b898-556d74be39a2.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/99566803/171518870-f3e17f79-636c-440d-b898-556d74be39a2.png" />
+</p>
 
 Several deciding factors were examined against their influence on the MPG (miles per gallon) parameter to see which of the mecha car configurations have the best outcome for cars' gasoline consumption. From the above-provided screenshot, several conclusions can be made:
 
